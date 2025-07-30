@@ -48,7 +48,7 @@ def get_formants(audio, sr=FS):
             time_step=0.01,
             maximum_formant=5500, # 例: 5500Hz (女性の声や高めの声に対応)
             max_number_of_formants=5,
-            window_length=0.03 # 例: 30ms
+            window_length=0.1 # 例: 30ms　0.03だったのを0.1に変更　■■■■■■■■■■■■■■■■■■■■■■■■■
         )
         
         # フォルマントの分析時間を取得（通常、チャンクの中央付近）
