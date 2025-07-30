@@ -191,8 +191,8 @@ st.write("マイク入力からリアルタイムでF1とF2フォルマントを
 # グラフの初期設定
 fig, ax = plt.subplots(figsize=(8, 6))
 
-ax.set_xlim(200, 1200) # F1軸の範囲
-ax.set_ylim(500, 3000) # F2軸の範囲
+ax.set_xlim(1200, 150) # F1軸の範囲
+ax.set_ylim(3500, 500) # F2軸の範囲
 ax.set_xlabel("F1 (Hz)")
 ax.set_ylabel("F2 (Hz)")
 ax.set_title("F1-F2 母音図")
