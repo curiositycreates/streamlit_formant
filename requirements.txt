@@ -4,4 +4,3 @@ numpy>=1.21.0
 matplotlib>=3.5.0
 praat-parselmouth>=0.4.0
 av>=10.0.0
-time
